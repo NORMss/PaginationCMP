@@ -1,5 +1,7 @@
 package ru.normno.paginationcmp
 
+import kotlinx.serialization.Serializable
+
 @Serializable
 data class ProductDto(
     val id: Long,
